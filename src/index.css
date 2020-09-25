@@ -1,0 +1,25 @@
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }  
+        #cvtext{
+            word-wrap:pre-wrap; 
+        }
+        #dvi1{
+            position: fixed;
+            top: 20px;
+            right: 20px; 
+            border: 1px solid red;
+        }
+        #dvi1::before {
+            content: ""; 
+            box-sizing: border-box;
+        }
+
+        #dvi1::after {
+            content: ""; 
+            box-sizing: border-box;
+        }
+ 
+        

@@ -3,10 +3,8 @@ var str1 = `/* 大家好，接下来我给大家画个太极
 */
 #dvi1 {
     width: 400px;
-    height: 400px;
-    position: fixed;
-    top: 20px;
-    right: 20px; 
+    height: 400px; 
+    border:none;
 }
 /*然后将div变成圆*/
 #dvi1 {
